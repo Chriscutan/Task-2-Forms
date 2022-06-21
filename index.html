@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="Add-data">
+        <h1 class="title">Add your details</h1>
+        <input type="text" id="add-name" placeholder="Name">
+        <input type="number"  id="add-phone" placeholder="Mobile No.">
+        <input type="email" id="add-email" placeholder="Email">
+        <button type="submit" class="btn" onclick="AddUserDetails()">Submit</button>
+    </div>
+
+    <div class="Fetch-data">
+        <h1 class="title">Fetch your details</h1>
+        <input type="email" id="fetch-email" placeholder="Email">
+        <button type="submit" class="btn" onclick="FetchUserDetails()">Fetch Details</button>
+    </div>
+
+    <div id="result-details">
+        <h1 class="title">Result</h1>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
